@@ -1,0 +1,61 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /* font-family: century gothic; */
+}
+.utama{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("aflah.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	border: 2px solid transparent;
+	transition: 0.6s;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.navbar{
+  max-width: 1300px;
+	margin: auto;
+  font-family: century gothic;
+}
+.gambar{
+  width: 200px;
+  margin-top: 95px;
+  margin-left: 35px;
+  border: 1px solid;
+  border-radius: 2px;
+  float: left;
+  color: white;
+}
+.data_diri{
+  width: 1050px;
+  height: 500px;
+  margin-left: 25px;
+  margin-top: 55px;
+  float: left;
+  font-size: 22px;
+  color: white;
+  border: 1px solid;
+  background: rgba(154, 154, 154, 0.46);
+  font-family: "montserrat";
+  text-align: justify;
+}
